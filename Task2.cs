@@ -6,6 +6,27 @@ using System.Threading.Tasks;
 
 namespace ITI
 {
+    
+struct Time
+{
+    public int Hours;
+    public int Minutes;
+    public int Seconds;
+
+
+    public Time(int h, int m, int s)
+    {
+        Hours = h;
+        Minutes = m;
+        Seconds = s;
+    }
+
+
+    public void Print()
+    {
+        Console.WriteLine($"{Hours:D2}H:{Minutes:D2}M:{Seconds:D2}S");
+    }
+}
     class Task2
     {
         static void Main()
@@ -28,6 +49,9 @@ namespace ITI
             {
                 Console.WriteLine($"Student {i + 1}: {students[i]}");
             }
+            Time t1 = new Time(22, 33, 11);
+
+        t1.Print();
         }
     }
 }
