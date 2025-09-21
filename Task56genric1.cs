@@ -1,6 +1,6 @@
 ﻿namespace ITI
 {
-    internal class Task1
+    class Task56genric1
     {
        class Range<T> where T : IComparable<T>
          {
