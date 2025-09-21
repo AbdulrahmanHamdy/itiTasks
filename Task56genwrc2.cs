@@ -1,6 +1,6 @@
 namespace ITI
 {
-     class Task1
+     class Task56genwrc2
     {
         class FixedSizeList<T>
         {
