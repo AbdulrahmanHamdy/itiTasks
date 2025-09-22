@@ -156,7 +156,7 @@ class Task7
         fixedList.Add("World");
         Console.WriteLine("FixedSizeList[1] = " + fixedList.Get(1));
 
-        r
+       
         string str = "swiss";
         int index = FindFirstUnique(str);
         Console.WriteLine("First non-repeated char index: " + index);
